@@ -1,0 +1,26 @@
+{
+  "name": "redis-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatram64/redis-users.git"
+  },
+  "author": "Venkatram Veerareddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatram64/redis-users/issues"
+  },
+  "homepage": "https://github.com/venkatram64/redis-users#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "redis": "^2.8.0"
+  }
+}
